@@ -1,0 +1,17 @@
+{
+  "name": "conetamongojs",
+  "version": "1.0.0",
+  "description": "Abrir conexao com banco mongo em nuvem usando configuração padrão",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env mongodb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose S Lima",
+  "license": "ISC",
+  "dependencies": {
+    "conetamongojs": "file:",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.11.0"
+  }
+}
